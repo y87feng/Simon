@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cs349.uwaterloo.ca.cs349a4.StartActivity">
+
+    <Button
+        android:id="@+id/m_StartGame"
+        android:layout_width="367dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="308dp"
+        android:text="Start Game"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="360dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="156dp"
+        android:text="Welcome to Simon"
+        android:textSize="40dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/m_Setting"
+        android:layout_width="367dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="56dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/m_StartGame" />
+
+    <Button
+        android:id="@+id/m_Instruction"
+        android:layout_width="367dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="252dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
